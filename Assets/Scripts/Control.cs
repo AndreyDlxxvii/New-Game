@@ -55,7 +55,8 @@ public class Control : MonoBehaviour
 
         void IsGroundedUpate(Collision collision, bool value)
         {
-            if (collision.gameObject.tag == ("Ground"))
+            print(collision.gameObject.tag);
+            if (collision.gameObject.CompareTag(("Ground")))
             {
                 _isGrounded = value;
             }
