@@ -25,9 +25,7 @@ public class Control : MonoBehaviour
     private void Movement()
     {
         float moveHorizontal = Input.GetAxis("Horizontal");
-        print(message: moveHorizontal);
         float moveVertical = Input.GetAxis("Vertical");
-        print(moveVertical);
         Vector3 movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
         _rb.AddForce(movement * speed);
     }
@@ -63,7 +61,6 @@ public class Control : MonoBehaviour
 
         void IsGroundedUpate(Collision collision, bool value)
         {
-            print(collision.gameObject.tag);
             if (collision.gameObject.CompareTag(("Ground")))
             {
                 _isGrounded = value;
