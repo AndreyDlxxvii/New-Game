@@ -13,7 +13,7 @@ public class Elevator : MonoBehaviour
 
     private void MoveElevator()
     {
-        if (_isPlayerOnElevator)
+        if (_isPlayerOnElevator && transform.position.x > -5)
         {
             transform.Translate(Vector3.left * 0.02f);
         }
@@ -24,17 +24,18 @@ public class Elevator : MonoBehaviour
         CheckPlayerOnElevator(other);
     }
 
+    private void OnCollisionExit(Collision other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            other.gameObject.transform.parent = null;
+        }
+    }
+
     private void CheckPlayerOnElevator(Collision collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            collision.gameObject.transform.SetParent(transform);
-            _isPlayerOnElevator = true;
-        }
-        else if (!collision.gameObject.CompareTag("Player"))
-        {
-            collision.gameObject.transform.parent = null;
-        }
-        
+        if (!collision.gameObject.CompareTag("Player")) return;
+        collision.gameObject.transform.SetParent(transform);
+        _isPlayerOnElevator = true;
     }
 }
