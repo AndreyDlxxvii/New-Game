@@ -2309,6 +2309,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Ground
       objectReference: {fileID: 0}
+    - target: {fileID: 1713786416427020352, guid: 0ed2b84e4ae56a94d88d181ac8fcf6a4, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4156567911437268623, guid: 0ed2b84e4ae56a94d88d181ac8fcf6a4, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -2765,7 +2769,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65decf135fffc3748b20e0093897fdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 8059088727564679876, guid: 9410db57bc90c364b977ff7b8f2b7ae9, type: 3}
+  prefab: {fileID: 8585221524557002247, guid: f8aec12a4474b5b4d980320c53f36b36, type: 3}
 --- !u!1 &2079833490
 GameObject:
   m_ObjectHideFlags: 0
