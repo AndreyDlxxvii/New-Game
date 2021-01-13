@@ -17,7 +17,7 @@ public class SpawnCoin : MonoBehaviour
         {
             var position = child.transform.position;
             var obj = Instantiate(prefab);
-            obj.transform.position = new Vector3(position.x , position.y+1f, position.z);
+            obj.transform.position = new Vector3(position.x , position.y+1f, position.z+1.5f);
         }
     }
 
