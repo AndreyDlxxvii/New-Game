@@ -44,6 +44,7 @@ public class Control : MonoBehaviour
     void OnCollisionEnter (Collision collision)
         {
             IsGroundedUpate(collision, true);
+            Debug.Log(collision.gameObject.tag);
             // if (collision.gameObject.CompareTag("Ground"))
             // {
             //     gameObject.transform.parent = collision.transform;

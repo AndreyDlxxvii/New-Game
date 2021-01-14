@@ -16,8 +16,10 @@ public class SpawnCoin : MonoBehaviour
         foreach (Transform child in transform)
         {
             var position = child.transform.position;
-            var obj = Instantiate(prefab);
-            obj.transform.position = new Vector3(position.x , position.y+1f, position.z+1.5f);
+            var obj = Instantiate(prefab, child, true);
+            Debug.Log(child.transform.localPosition);
+            obj.transform.position = new Vector3(position.x , position.y+1f, position.z);
+            Debug.Log(obj.transform.localPosition);
         }
     }
 
