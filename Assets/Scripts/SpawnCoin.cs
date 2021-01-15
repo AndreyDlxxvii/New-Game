@@ -15,11 +15,13 @@ public class SpawnCoin : MonoBehaviour
     {
         foreach (Transform child in transform)
         {
-            var position = child.transform.position;
-            var obj = Instantiate(prefab, child, true);
-            Debug.Log(child.transform.localPosition);
-            obj.transform.position = new Vector3(position.x , position.y+1f, position.z);
-            Debug.Log(obj.transform.localPosition);
+            var position = child.transform.TransformPoint(0f,1f,0f);
+            Debug.Log(position);
+            var obj = Instantiate(prefab);
+            obj.transform.position = position;
+            obj.transform.SetParent(child);
+            //obj.transform.position = position;
+            //obj.transform.position = new Vector3(position.x , position.y+1f, position.z);
         }
     }
 
