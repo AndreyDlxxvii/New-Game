@@ -16,7 +16,6 @@ public class SpawnCoin : MonoBehaviour
         foreach (Transform child in transform)
         {
             var position = child.transform.TransformPoint(0f,1f,0f);
-            Debug.Log(position);
             var obj = Instantiate(prefab);
             obj.transform.position = position;
             obj.transform.SetParent(child);
