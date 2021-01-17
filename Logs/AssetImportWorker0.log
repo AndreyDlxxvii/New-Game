@@ -730,3 +730,337 @@ System memory in use after: 62.5 MB.
 Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1607.
 Total: 2.709600 ms (FindLiveObjects: 0.215400 ms CreateObjectMapping: 0.060800 ms MarkObjects: 2.414600 ms  DeleteObjects: 0.017600 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001487 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.380 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1092 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.6 MB.
+System memory in use after: 62.7 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1609.
+Total: 2.091800 ms (FindLiveObjects: 0.354600 ms CreateObjectMapping: 0.066300 ms MarkObjects: 1.650100 ms  DeleteObjects: 0.019600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 4536.868786 seconds.
+  path: Assets/FreeDimensionForge
+  artifactKey: Guid(eef1f3b8466d23946a4c93f78285919e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDimensionForge using Guid(eef1f3b8466d23946a4c93f78285919e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45e8a1e3c280a59a5ab089ab9f63d9b') in 0.011278 seconds
+  Import took 0.018187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.957010 seconds.
+  path: Assets/FreeDimensionForge/LowPolyEnvironmentsPack
+  artifactKey: Guid(9d28c427932e8d440b47e2181b63d7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDimensionForge/LowPolyEnvironmentsPack using Guid(9d28c427932e8d440b47e2181b63d7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb10ea0d72493de3812c89e7a3b82742') in 0.005568 seconds
+  Import took 0.010490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001401 seconds.
+  path: Assets/FreeDimensionForge/LowPolyEnvironmentsPack
+  artifactKey: Guid(9d28c427932e8d440b47e2181b63d7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDimensionForge/LowPolyEnvironmentsPack using Guid(9d28c427932e8d440b47e2181b63d7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb10ea0d72493de3812c89e7a3b82742') in 0.004250 seconds
+  Import took 0.007362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.367177 seconds.
+  path: Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art
+  artifactKey: Guid(87a0f91d4ac4cac4b8fc6860e236b972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art using Guid(87a0f91d4ac4cac4b8fc6860e236b972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f22e393ce6e074c4a756c72888776c18') in 0.005437 seconds
+  Import took 0.011017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000916 seconds.
+  path: Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art
+  artifactKey: Guid(87a0f91d4ac4cac4b8fc6860e236b972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art using Guid(87a0f91d4ac4cac4b8fc6860e236b972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f22e393ce6e074c4a756c72888776c18') in 0.004300 seconds
+  Import took 0.007177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.104869 seconds.
+  path: Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack
+  artifactKey: Guid(cea89b5a3d9ab23409c5f4bb3e282ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack using Guid(cea89b5a3d9ab23409c5f4bb3e282ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a3bd1d86c56d3375364e95ea77418a8') in 0.005907 seconds
+  Import took 0.009982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001035 seconds.
+  path: Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack
+  artifactKey: Guid(cea89b5a3d9ab23409c5f4bb3e282ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack using Guid(cea89b5a3d9ab23409c5f4bb3e282ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a3bd1d86c56d3375364e95ea77418a8') in 0.004953 seconds
+  Import took 0.007650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.636456 seconds.
+  path: Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Prefabs
+  artifactKey: Guid(6e1fb629752282743b160e9ee8c131d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Prefabs using Guid(6e1fb629752282743b160e9ee8c131d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1871cebdbc9d2499db679be08a2b2bf5') in 0.017488 seconds
+  Import took 0.021987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.122919 seconds.
+  path: Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Prefabs/ForestAxe.prefab
+  artifactKey: Guid(abcf5a75abc219c4ab38d041d5e0cd9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Prefabs/ForestAxe.prefab using Guid(abcf5a75abc219c4ab38d041d5e0cd9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f899926b6997f5a7404320d6a3db9ec0') in 0.105106 seconds
+  Import took 0.108754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000460 seconds.
+  path: Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Prefabs/ForestCrossing_01.prefab
+  artifactKey: Guid(6046fb9467fcf5844a4ac5f9fe3a08ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Prefabs/ForestCrossing_01.prefab using Guid(6046fb9467fcf5844a4ac5f9fe3a08ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc6d638f3eb2b735e1af2fe4eb4cb918') in 0.026529 seconds
+  Import took 0.029784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000634 seconds.
+  path: Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Prefabs/ForestMushroom02.prefab
+  artifactKey: Guid(a23c20d2f3f5cca4b8d20c8669af7144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Prefabs/ForestMushroom02.prefab using Guid(a23c20d2f3f5cca4b8d20c8669af7144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72105d7f041c4c8af42f0d7579a32c9c') in 0.086607 seconds
+  Import took 0.092082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Prefabs/ForestCanoe.prefab
+  artifactKey: Guid(f6c2d9f9bce84fe4696cf5ab0104b163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Prefabs/ForestCanoe.prefab using Guid(f6c2d9f9bce84fe4696cf5ab0104b163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ac43a4ff953ef6955336893b384fc21') in 0.029160 seconds
+  Import took 0.036699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000714 seconds.
+  path: Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Prefabs/ForestFire.prefab
+  artifactKey: Guid(deb2a7132a29f404cb23a1820ed42cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Prefabs/ForestFire.prefab using Guid(deb2a7132a29f404cb23a1820ed42cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10702fc73e400572b2eb67cade2d1095') in 0.042869 seconds
+  Import took 0.047174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Prefabs/ForestLakeCube.prefab
+  artifactKey: Guid(93602bff4df8d064c8667d1a19545a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Prefabs/ForestLakeCube.prefab using Guid(93602bff4df8d064c8667d1a19545a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa663a7602e2ee3644405ed444495bb2') in 0.025228 seconds
+  Import took 0.029814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Prefabs/ForestCrossingCube_01.prefab
+  artifactKey: Guid(9b58bf7da640e264f99ddad9a8e75523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Prefabs/ForestCrossingCube_01.prefab using Guid(9b58bf7da640e264f99ddad9a8e75523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fb66de2129ed46c94fdca510a14abde') in 0.021765 seconds
+  Import took 0.025589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000840 seconds.
+  path: Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Prefabs/ForestLake.prefab
+  artifactKey: Guid(257e42b9a9f55ec43b4032bf0a9efc30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Prefabs/ForestLake.prefab using Guid(257e42b9a9f55ec43b4032bf0a9efc30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1e80fcea6c8841496aaa2a09f4bd29b') in 0.035167 seconds
+  Import took 0.039511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Prefabs/ForestEnd.prefab
+  artifactKey: Guid(e40f6ce8b4f626a4a9208bd6ccbd6dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Prefabs/ForestEnd.prefab using Guid(e40f6ce8b4f626a4a9208bd6ccbd6dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '383689b9446dcaebc91d5931feaee305') in 0.020077 seconds
+  Import took 0.023512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Prefabs/ForestCrossing_02.prefab
+  artifactKey: Guid(0ed2b84e4ae56a94d88d181ac8fcf6a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Prefabs/ForestCrossing_02.prefab using Guid(0ed2b84e4ae56a94d88d181ac8fcf6a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c426954ab69d5a15659d4cc30755d1a') in 0.030179 seconds
+  Import took 0.034026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000718 seconds.
+  path: Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Prefabs/ForestEmptyCube.prefab
+  artifactKey: Guid(ab34e4c350b5b634e944d18ce310ec3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Prefabs/ForestEmptyCube.prefab using Guid(ab34e4c350b5b634e944d18ce310ec3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1151c887fcb8d78c855b755a271e1bc7') in 0.031719 seconds
+  Import took 0.036191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Prefabs/ForestBoat.prefab
+  artifactKey: Guid(adf0c288a9757be4f9690e18cf978cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Prefabs/ForestBoat.prefab using Guid(adf0c288a9757be4f9690e18cf978cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e16bac2f8166eec7e87a830c53e0a09') in 0.040299 seconds
+  Import took 0.045165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000471 seconds.
+  path: Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Prefabs/ForestCrossingCube_02.prefab
+  artifactKey: Guid(1a44e477f33d3684d8546c3985432593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Prefabs/ForestCrossingCube_02.prefab using Guid(1a44e477f33d3684d8546c3985432593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f75640d4387505372bef6490789da5b') in 0.027375 seconds
+  Import took 0.032017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Prefabs/ForestPaddle.prefab
+  artifactKey: Guid(f866f48ee40da9a4c9cb662cfab62f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Prefabs/ForestPaddle.prefab using Guid(f866f48ee40da9a4c9cb662cfab62f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c339893398bea0826b4d38113906df40') in 0.021099 seconds
+  Import took 0.026030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000469 seconds.
+  path: Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Prefabs/ForestCabin.prefab
+  artifactKey: Guid(2c6139628bf17834f84d427befedb9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Prefabs/ForestCabin.prefab using Guid(2c6139628bf17834f84d427befedb9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1f129f58c1d4533f3515a4fb90ab62b') in 0.030812 seconds
+  Import took 0.036080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000727 seconds.
+  path: Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Prefabs/ForestEndCube.prefab
+  artifactKey: Guid(c41ad0a6fd8afbb47ae4397d938373a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Prefabs/ForestEndCube.prefab using Guid(c41ad0a6fd8afbb47ae4397d938373a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84539f8e02ee6eaae125abc5b1196aee') in 0.027121 seconds
+  Import took 0.031351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000783 seconds.
+  path: Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Prefabs/ForestBridge_02.prefab
+  artifactKey: Guid(ce3722c701253c3498f8d0aa88413d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Prefabs/ForestBridge_02.prefab using Guid(ce3722c701253c3498f8d0aa88413d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc445d40e5b7481cb6cf05e2dd3b5ed4') in 0.027391 seconds
+  Import took 0.032983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001117 seconds.
+  path: Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Prefabs/ForestRiverCurve.prefab
+  artifactKey: Guid(43631788bbf6c334c99fece93270ffc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Prefabs/ForestRiverCurve.prefab using Guid(43631788bbf6c334c99fece93270ffc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '935a2fa02b158af3f918ab253672cbd7') in 0.038545 seconds
+  Import took 0.045749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001394 seconds.
+  path: Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Prefabs/ForestCurve.prefab
+  artifactKey: Guid(d10b86d110729064f9b83800f884ab74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Prefabs/ForestCurve.prefab using Guid(d10b86d110729064f9b83800f884ab74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e6cf12b0405265ef61e48fabc06d770') in 0.031768 seconds
+  Import took 0.038398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Prefabs/ForestCloud.prefab
+  artifactKey: Guid(be610da9ab7250443b94152afd92835f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Prefabs/ForestCloud.prefab using Guid(be610da9ab7250443b94152afd92835f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f64690c4ea4e08e18d7ada9c3e80da24') in 0.019726 seconds
+  Import took 0.024321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000908 seconds.
+  path: Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Prefabs/ForestRiverCurveCube.prefab
+  artifactKey: Guid(8649bfe99b212f14eb2013a76849b8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Prefabs/ForestRiverCurveCube.prefab using Guid(8649bfe99b212f14eb2013a76849b8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb5b82f350a25fbc98ce5b645925016c') in 0.022911 seconds
+  Import took 0.027477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000504 seconds.
+  path: Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Prefabs/ForestEmpty.prefab
+  artifactKey: Guid(bb57c1e01794ba34cb07e4798e196cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Prefabs/ForestEmpty.prefab using Guid(bb57c1e01794ba34cb07e4798e196cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dc7534cfc45fd326e04a6778bff9d22') in 0.027688 seconds
+  Import took 0.035474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000680 seconds.
+  path: Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Prefabs/ForestCurveCube.prefab
+  artifactKey: Guid(80a51c2c7e3e1ac4bbad2257548a2ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Prefabs/ForestCurveCube.prefab using Guid(80a51c2c7e3e1ac4bbad2257548a2ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b546421d691b309ce3b0d553ebc90e4') in 0.020085 seconds
+  Import took 0.024624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Prefabs/ForestMushroom01.prefab
+  artifactKey: Guid(2376b0bc23c563543a8ec1756b256f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Prefabs/ForestMushroom01.prefab using Guid(2376b0bc23c563543a8ec1756b256f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '002e6d1634df2120a554b3af9fe7707a') in 0.024457 seconds
+  Import took 0.028069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000478 seconds.
+  path: Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Prefabs/ForestBridge_01.prefab
+  artifactKey: Guid(8a8b564f3cd379349b2b01487d59f8c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeDimensionForge/LowPolyEnvironmentsPack/Art/ForestEnvironmentPack/Prefabs/ForestBridge_01.prefab using Guid(8a8b564f3cd379349b2b01487d59f8c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4827f9111bcdb75cc945e7a3434792a') in 0.021636 seconds
+  Import took 0.026259 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001546 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.590 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1092 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.8 MB.
+System memory in use after: 62.9 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1612.
+Total: 2.829300 ms (FindLiveObjects: 0.277700 ms CreateObjectMapping: 0.067200 ms MarkObjects: 2.463400 ms  DeleteObjects: 0.020000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001153 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.877 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1092 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 63.0 MB.
+System memory in use after: 63.1 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1614.
+Total: 2.472000 ms (FindLiveObjects: 0.285000 ms CreateObjectMapping: 0.067700 ms MarkObjects: 2.098600 ms  DeleteObjects: 0.019500 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

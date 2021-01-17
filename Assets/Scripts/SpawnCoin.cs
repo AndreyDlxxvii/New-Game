@@ -10,7 +10,7 @@ public class SpawnCoin : MonoBehaviour
     {
         SpawnGoldCoinOnScene();
     }
-
+//spawn coin as child platform
     private void SpawnGoldCoinOnScene()
     {
         foreach (Transform child in transform)
