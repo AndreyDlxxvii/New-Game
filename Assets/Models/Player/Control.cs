@@ -36,19 +36,23 @@ public class Control : MonoBehaviour
 
     private void Jump()
     {
-        if (Input.GetAxis("Jump") > 0)
+        if (Input.GetAxis("Jump") > 0 && _countCheckGround>0)
         {
-            if (_isGrounded)
-            {
                 _rb.AddForce(Vector3.up * jumpForce);
-            }
         }
     }
-//check for make jump
+    //check on ground
     void OnCollisionEnter (Collision collision)
         {
-            IsGroundedUpate(collision, true);
-        }
+            if (collision.gameObject.CompareTag("Ground")) _countCheckGround++;
+            print(_countCheckGround);
+        } 
+    //check out ground
+    void OnCollisionExit(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Ground")) _countCheckGround--;
+        print(_countCheckGround);
+    }
 //check coin and finish
     private void OnTriggerEnter(Collider other)
     {
@@ -63,18 +67,14 @@ public class Control : MonoBehaviour
         }
 
     }
-//leave ground
-    void OnCollisionExit(Collision collision)
-        {
-            IsGroundedUpate(collision, false);
-        }
+
 //check ground
-        void IsGroundedUpate(Collision collision, bool value)
-        {
-            if (collision.gameObject.CompareTag(("Ground")))
-            {
-                _isGrounded = value;
-            }
-        }
+        // void IsGroundedUpate(Collision collision, bool value)
+        // {
+        //     if (collision.gameObject.CompareTag(("Ground")))
+        //     {
+        //         _isGrounded = value;
+        //     }
+        // }
     }
 
