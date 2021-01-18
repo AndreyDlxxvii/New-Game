@@ -12,6 +12,7 @@ public class Control : MonoBehaviour
 
     private bool _isGrounded;
     private Rigidbody _rb;
+    private byte _countCheckGround;
 
     void Start()
     {
@@ -48,13 +49,19 @@ public class Control : MonoBehaviour
         {
             IsGroundedUpate(collision, true);
         }
-//check coin collect
+//check coin and finish
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Coin"))
+        switch (other.gameObject.tag)
         {
-            GameManager.IncrementalScore();
+            case "Coin":
+                GameManager.IncrementalScore();
+                break;
+            case "Finish":
+                GameManager.Finish();
+                break;
         }
+
     }
 //leave ground
     void OnCollisionExit(Collision collision)
