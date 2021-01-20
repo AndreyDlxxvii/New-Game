@@ -38,7 +38,8 @@ public class Control : MonoBehaviour
     {
         if (Input.GetAxis("Jump") > 0 && _countCheckGround>0)
         {
-                _rb.AddForce(Vector3.up * jumpForce);
+            _rb.AddForce(Vector3.up * jumpForce);
+            print(jumpForce);
         }
     }
     //check on ground
