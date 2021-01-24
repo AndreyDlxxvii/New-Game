@@ -39,20 +39,17 @@ public class Control : MonoBehaviour
         if (Input.GetAxis("Jump") > 0 && _countCheckGround>0)
         {
             _rb.AddForce(Vector3.up * jumpForce);
-            print(jumpForce);
         }
     }
     //check on ground
     void OnCollisionEnter (Collision collision)
         {
             if (collision.gameObject.CompareTag("Ground")) _countCheckGround++;
-            print(_countCheckGround);
         } 
     //check out ground
     void OnCollisionExit(Collision collision)
     {
         if (collision.gameObject.CompareTag("Ground")) _countCheckGround--;
-        print(_countCheckGround);
     }
 //check coin and finish
     private void OnTriggerEnter(Collider other)
