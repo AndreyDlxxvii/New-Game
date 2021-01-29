@@ -2239,8 +2239,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GameManager: {fileID: 1883778560}
-  speed: 5
-  jumpForce: 100
+  Speed: 5
+  JumpForce: 100
 --- !u!1001 &571016911
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5884,11 +5884,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0880c2d1583b0a146985baad05098107, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distance: 6
-  height: 2
-  heightDamping: 10
-  sensitivity: 100
-  target: {fileID: 543628551}
+  Distance: 6
+  Height: 2
+  HeightDamping: 10
+  Sensitivity: 50
+  Target: {fileID: 543628551}
 --- !u!1001 &1504103585
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7014,6 +7014,7 @@ MonoBehaviour:
   GameOverText: {fileID: 460852402}
   Camera: {fileID: 1491075239}
   ButtonRestart: {fileID: 72971549}
+  Player: {fileID: 543628546}
 --- !u!4 &1883778561
 Transform:
   m_ObjectHideFlags: 0

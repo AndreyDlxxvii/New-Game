@@ -3,12 +3,12 @@ using static UnityEngine.Screen;
 
 public class SmoothFollow : MonoBehaviour
 {
-    public float distance = 6.0f;
-    public float height = 2.0f;
-    public float heightDamping = 10.0f;
+    public float Distance = 6.0f;
+    public float Height = 2.0f;
+    public float HeightDamping = 10.0f;
     //public float rotationDamping = 0.0f;
-    public float sensitivity = 10f;
-    public Transform target;
+    public float Sensitivity = 10f;
+    public Transform Target;
 
     private Vector3 _mousePos;
     private float _cameraRotation = 0f;
@@ -18,7 +18,7 @@ public class SmoothFollow : MonoBehaviour
         if (Input.GetMouseButton(0))
         {
             _mousePos = Input.mousePosition;
-            _cameraRotation = ((_mousePos.x - (width / 2)) / width)*sensitivity;
+            _cameraRotation = ((_mousePos.x - (width / 2)) / width)*Sensitivity;
             print(_cameraRotation);
         }
         else if (Input.GetMouseButtonDown(1))
@@ -26,15 +26,15 @@ public class SmoothFollow : MonoBehaviour
             _cameraRotation = 0f;
         }
         
-        // Early out if we don't have a target
-        if (!target)
+        // Early out if we don't have a Target
+        if (!Target)
         {
             return;
         }
 
         // Calculate the current rotation angles
-        float wantedRotationAngle = target.eulerAngles.y;
-        float wantedHeight = target.position.y + height;
+        float wantedRotationAngle = Target.eulerAngles.y;
+        float wantedHeight = Target.position.y + Height;
 
         //float currentRotationAngle = i;
         float currentHeight = transform.position.y;
@@ -42,20 +42,20 @@ public class SmoothFollow : MonoBehaviour
         // Damp the rotation around the y-axis
         //currentRotationAngle = Mathf.LerpAngle(currentRotationAngle, wantedRotationAngle, rotationDamping * Time.deltaTime);
 
-        // Damp the height
-        currentHeight = Mathf.Lerp(currentHeight, wantedHeight, heightDamping * Time.deltaTime);
+        // Damp the Height
+        currentHeight = Mathf.Lerp(currentHeight, wantedHeight, HeightDamping * Time.deltaTime);
 
         // Convert the angle into a rotation
         Quaternion currentRotation = Quaternion.Euler(0, _cameraRotation, 0);
 
         // Set the position of the camera on the x-z plane to:
-        // distance meters behind the target
+        // Distance meters behind the Target
         var pos = transform.position;
-        pos = target.position - currentRotation * Vector3.forward * distance;
+        pos = Target.position - currentRotation * Vector3.forward * Distance;
         pos.y = currentHeight;
         transform.position = pos;
 
-        // Always look at the target
-        transform.LookAt(target);
+        // Always look at the Target
+        transform.LookAt(Target);
     }
 }

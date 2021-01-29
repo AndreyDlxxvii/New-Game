@@ -7,8 +7,8 @@ using UnityEngine.Serialization;
 public class Control : MonoBehaviour
 {
     public GameManager GameManager;
-    public float speed = 5f;
-    public float jumpForce = 100f;
+    public float Speed = 5f;
+    public float JumpForce = 100f;
 
     private bool _isGrounded;
     private Rigidbody _rb;
@@ -30,7 +30,7 @@ public class Control : MonoBehaviour
         float moveHorizontal = Input.GetAxis("Horizontal");
         float moveVertical = Input.GetAxis("Vertical");
         Vector3 movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
-        _rb.AddForce(movement * speed);
+        _rb.AddForce(movement * Speed);
         if (transform.position.y < -18f) GameManager.CheckGameOver();
     }
 
@@ -38,7 +38,7 @@ public class Control : MonoBehaviour
     {
         if (Input.GetAxis("Jump") > 0 && _countCheckGround>0)
         {
-            _rb.AddForce(Vector3.up * jumpForce);
+            _rb.AddForce(Vector3.up * JumpForce);
         }
     }
     //check on ground

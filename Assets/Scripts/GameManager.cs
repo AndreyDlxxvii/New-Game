@@ -12,15 +12,18 @@ public class GameManager : MonoBehaviour
     public Text GameOverText;
     public Camera Camera;
     public Animator ButtonRestart;
+    public GameObject Player;
     
     private int _i = 0;
     private SmoothFollow _smoothFollow;
+    private Control _controlPlayer;
     private static readonly int New = Animator.StringToHash("New");
 
     // Start is called before the first frame update
     void Start()
     {
         _smoothFollow = Camera.GetComponent<SmoothFollow>();
+        _controlPlayer = Player.GetComponent<Control>();
     }
 
     // Update is called once per frame
@@ -47,11 +50,13 @@ public class GameManager : MonoBehaviour
     {
         GameOverText.gameObject.SetActive(true);
         GameOverText.text = $"Сongratulations!";
+        _controlPlayer.enabled = false;
+        ButtonRestart.SetInteger("RestartButtonShow", 0);
     }
 
     public void RestartGameButton()
     {
-        ButtonRestart.SetInteger("RestartButtonHide", 1);
+        //ButtonRestart.SetInteger("RestartButtonHide", 1);
         SceneManager.LoadScene(sceneBuildIndex: 0);
     }
     
