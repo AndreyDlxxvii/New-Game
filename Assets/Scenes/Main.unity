@@ -5887,7 +5887,7 @@ MonoBehaviour:
   distance: 6
   height: 2
   heightDamping: 10
-  rotationDamping: 0
+  sensitivity: 100
   target: {fileID: 543628551}
 --- !u!1001 &1504103585
 PrefabInstance:
